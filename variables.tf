@@ -9,3 +9,12 @@ type = "list"
 
 default = ["nacl1", "nacl2"]
 }
+
+variable "env_vpc" {
+  type = "map"
+  default = {
+    "dev" = "vpc-dev"
+    "prod" = "vpc-prod"
+    "test" = "vpc-test"
+  }
+}
