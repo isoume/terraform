@@ -1,4 +1,4 @@
-#Environment to precise whe applying
+#Environment to precise when applying
 variable "env" {
 }
 
