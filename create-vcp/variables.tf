@@ -16,16 +16,16 @@ variable "cidr_vpc" {
 variable "subnets" {
    default={
      dev={
-	private="10.10.1.0/24"
-	public="10.10.2.0/24"
+	  private="10.10.1.0/24"
+	  public="10.10.2.0/24"
      }
      test={
-	private="172.10.1.0/24"
-	public="172.10.2.0/24"
+	  private="172.10.1.0/24"
+	  public="172.10.2.0/24"
      }
      prod={
-	private="192.10.1.0/24"
-	public="192.10.2.0/24"
+	  private="192.10.1.0/24"
+	  public="192.10.2.0/24"
      }
    }
 }
